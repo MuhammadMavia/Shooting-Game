@@ -1,0 +1,135 @@
+body{
+    height: 1800px;
+    background-image: url("image/b1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: #73091c;
+    text-align: center;
+}
+#demo{
+    display: none;
+    cursor: move;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    width: 100%;
+}
+h2{
+    font-size: 400%;
+    display: inline;
+    position: absolute;
+}
+#gunkkk{
+    display: inline-block;
+    position: absolute;
+    margin-top: 50px;
+    transform: rotate(-46deg);
+    height: 300px;
+    width: 300px;
+    margin-left: -150px;
+}
+img{
+    height: 250px;
+    width: 210px;
+}
+/*play game*/
+
+#play{
+    margin-left: 30%;
+    position: absolute;
+    margin-top: 15%;
+    background-image: url("image/clo.png");
+    background-size: 100% 100%;
+    height: 600px;
+    width: 1000px;
+}
+#play div{
+    font-size: 500%;
+    font-weight: bold;
+    font-family: cursive;
+    color: #799bbb;
+    margin-top: 25%;
+}
+#win{
+    margin-top: 15%;
+    font-weight: bold;
+    font-family: cursive;
+    color: #799bbb;
+    background-image: url("image/clo.png");
+    background-size: 100% 100%;
+    display: none;
+    height: 500px;
+    width: 1000px;
+}
+#win h1{
+    font-size: 500%;
+    margin-top: 12%;
+}
+#win div{
+    font-size: 370%;
+}
+#end{
+    display: none;
+    margin-top: 15%;
+    font-weight: bold;
+    font-family: cursive;
+    color: #799bbb;
+    background-image: url("image/clo.png");
+    background-size: 100% 100%;
+    height: 600px;
+    width: 1000px;
+}
+#end h1{
+    font-size: 500%;
+    margin-top: 12%;
+}
+#end div{
+    font-size: 370%;
+}
+.c1{
+    margin: 0px 100px 100px 0px;
+    height: 100px;
+    width: 120px;
+ }
+.c2{
+    margin: 0px 100px 200px 0px;
+    height: 120px;
+    width: 130px;
+ }
+.c3{
+    margin: 0px 100px 300px 0px;
+    height: 150px;
+    width: 180px;
+ }
+.c4{
+    margin: 0px 100px 400px 0px;
+    height: 150px;
+    width: 160px;
+ }
+.c5{
+    margin: 0px 100px 500px 0px;
+    height: 80px;
+    width: 100px;
+ }
+.c6{
+    margin: 0px 100px 600px 0px;
+    height: 115px;
+    width: 135px;
+ }
+#cloud_1{
+    margin-top: 0px;
+}
+#cloud_2{
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+#cloud_3{
+    margin-bottom: 0px;
+}
+
+#pull{
+    margin-left: -150px;
+    position: absolute;
+    height: 500px;
+    width: 300px;
+}
